@@ -1,0 +1,64 @@
+main{
+    width: 70%;
+    margin: auto;
+    background-color: #EAEAEA;
+    box-shadow: 5px 3px 3px rgb(0, 0, 0);
+    margin-top: 1%;
+}
+section{
+    width: 100%;
+}
+#listacoches{
+    width: 100%;
+}
+
+#listacoches section article{
+    width: 80%;
+    margin: auto;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 6%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    box-shadow: 5px 3px 3px rgb(0, 0, 0);
+    background-color: white;
+
+    
+}
+
+.specs{
+    color: rgb(97, 96, 96);
+    font-size: 1.1em;
+    margin-left: 2%;
+}
+.precio{
+    background-color: #ca0303;
+    color: #EAEAEA;
+    border-radius: 10px;
+    width: 10%;
+    text-align: center;
+    padding: 1.5%;
+    color: white;
+    font-size: 1.1em;
+    
+}
+.precio:hover{
+    background-color: blue;
+}
+
+#listacoches article img{
+    width: 65%;
+    height: 100%;
+    margin-right: 2%;
+    margin-left:-4%;
+    box-shadow: 3px 2px 2px black;
+}
+
+h2{
+    margin-bottom: 2%;
+}
+p{
+    margin: 2%;
+}
